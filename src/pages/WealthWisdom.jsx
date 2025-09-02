@@ -18,7 +18,7 @@ export default function WealthWisdom() {
       <section className="mx-auto max-w-5xl px-4 -mt-10 space-y-4">
         {models.map(m => (
           <div key={m.title} className="card-glass p-6">
-            <h3 className="text-lg font-semibold gradient-text">{m.title}</h3>
+            <h3 className="text-lg font-bold text-white">{m.title}</h3>
             <p className="mt-2 text-white/80 text-sm">{m.text}</p>
           </div>
         ))}

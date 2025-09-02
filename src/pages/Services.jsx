@@ -29,7 +29,7 @@ export default function Services() {
       <section className="mx-auto max-w-7xl px-4 -mt-10 grid gap-6 md:grid-cols-3">
         {items.map((it) => (
           <div key={it.title} className="card-glass p-6">
-            <h3 className="text-xl font-semibold gradient-text">{it.title}</h3>
+            <h3 className="text-xl font-bold text-white">{it.title}</h3>
             <p className="mt-2 text-white/80 text-sm">{it.desc}</p>
             <ul className="mt-4 text-white/80 text-sm list-disc pl-5 space-y-1">
               {it.bullets.map(b => <li key={b}>{b}</li>)}

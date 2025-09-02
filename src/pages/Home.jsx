@@ -20,7 +20,7 @@ export default function Home() {
       <section className="mx-auto max-w-7xl px-4 -mt-12 grid gap-6 md:grid-cols-3">
         {highlights.map((h) => (
           <Link to={h.href} key={h.title} className="card-glass p-6 hover:scale-[1.01] transition block">
-            <h3 className="text-xl font-semibold gradient-text">{h.title}</h3>
+            <h3 className="text-xl font-bold text-white">{h.title}</h3>
             <p className="mt-2 text-white/80 text-sm">{h.desc}</p>
           </Link>
         ))}
