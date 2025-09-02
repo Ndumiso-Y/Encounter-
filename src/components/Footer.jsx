@@ -13,7 +13,7 @@ export default function Footer() {
       <div className="mx-auto max-w-7xl px-4 py-12 grid gap-8 md:grid-cols-3">
         <div>
           <div className="flex items-center gap-3">
-            <img src="/assets/logo/Logo%20icon%20black.png" alt="Logo" className="h-8 w-8 rounded"/>
+            <img src={`${import.meta.env.BASE_URL}assets/logo/Logo%20icon%20black.png`} alt="Logo" className="h-8 w-8 rounded"/>
             <span className="font-semibold">Encounter</span>
           </div>
           <p className="mt-3 text-sm text-white/70">We blend wisdom from nature with modern financial strategy—so you live rich and think wise.</p>
