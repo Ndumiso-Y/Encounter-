@@ -30,7 +30,7 @@ export default function Home() {
         <div className="card-glass p-8">
           <h3 className="text-2xl font-semibold">Founder</h3>
           <p className="mt-2 text-white/80 text-sm">Mahau Makhura leads Encounter with a mission: align money with meaning. We teach systems that are calm, simple, and robust.</p>
-          <img src="/assets/founder/Raymond.jpg" alt="Founder Raymond placeholder" className="mt-6 rounded-xl ring-1 ring-white/10"/>
+          <img src={`${import.meta.env.BASE_URL}assets/founder/Raymond.jpg`} alt="Founder Raymond placeholder" className="mt-6 rounded-xl ring-1 ring-white/10"/>
         </div>
         <div className="card-glass p-8">
           <h3 className="text-2xl font-semibold">Our Hashtags</h3>

@@ -16,7 +16,7 @@ export default function Navbar() {
       <div className="mx-auto max-w-7xl px-4">
         <div className="flex h-16 items-center justify-between">
           <Link to="/" className="flex items-center gap-3">
-            <img src="/assets/logo/Logo%20icon%20black.png" alt="Encounter Logo" className="h-9 w-9 rounded-lg ring-1 ring-white/10"/>
+            <img src={`${import.meta.env.BASE_URL}assets/logo/Logo%20icon%20black.png`} alt="Encounter Logo" className="h-9 w-9 rounded-lg ring-1 ring-white/10"/>
             <span className="text-lg font-semibold tracking-wide">Encounter</span>
           </Link>
           <nav className="hidden gap-6 md:flex">
