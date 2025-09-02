@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="400">
+<defs>
+  <linearGradient id="g2" x1="0" x2="1">
+    <stop offset="0%" stop-color="#800080"/>
+    <stop offset="100%" stop-color="#9932CC"/>
+  </linearGradient>
+</defs>
+<rect width="100%" height="100%" fill="url(#g2)"/>
+<text x="50" y="210" font-family="Segoe UI, Arial" font-size="48" fill="white">Raymond (Placeholder)</text>
+</svg>
